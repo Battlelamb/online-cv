@@ -4,7 +4,9 @@
   <div class="profile-container">
 
     {% if sidebar.avatar %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <img class="avatar"
+      src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}"
+      alt="profile picture" />
     {% endif %}
 
     {% if sidebar.name %}
@@ -15,22 +17,26 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
     {% if sidebar.experience %}
-    <h4 class="experience">{{ sidebar.experience }} Years of Experience</h4>
+    <h4 class="experience">{{ sidebar.experience }} Years of
+      Experience</h4>
     {% endif %}
 
   </div><!--//profile-container-->
 
   {% include contact.html %}
 
-  {% if sidebar.education %}
-    {% include education.html %}
-  {% endif %}
 
+
+  {% include programingskills.html %}
+  {% include knowledge.html %}
   {% include language.html %}
-  {% include interests.html %}
+  {% if sidebar.education %}
+  {% include education.html %}
+  {% endif %}
+  <!-- {% include interests.html %} -->
 
   {% if sidebar.about %}
-    {% include about.html %}
+  {% include about.html %}
   {% endif %}
 
 </div><!--//sidebar-wrapper-->

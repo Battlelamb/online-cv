@@ -1,0 +1,24 @@
+<style>
+    .lang-desc {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+</style>
+
+{% assign programingskills = site.data.data.sidebar.programingskills %}
+{% if programingskills %}
+<div class="language-container container-block">
+    <h2 class="container-block-title">
+        {{ programingskills.title }}
+    </h2>
+
+    <ul class="list-unstyled interests-list">
+        {% for programingskills in programingskills.info %}
+        <li>
+            <span class="lang-desc">&bull; {{ programingskills.item }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>
+{% endif %}

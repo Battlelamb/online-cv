@@ -1,0 +1,23 @@
+<style>
+    .increased-line-height {
+        line-height: 1.6;
+    }
+</style>
+
+{% assign industryknowledges = site.data.data.sidebar.industryknowledges %}
+{% if industryknowledges %}
+<div class="language-container container-block">
+    <h2 class="container-block-title">
+        {{ industryknowledges.title }}
+    </h2>
+
+    <div class="list-unstyled interests-list increased-line-height">
+        {% for industryknowledge in industryknowledges.info %}
+            <span class="lang-desc">
+                {{ industryknowledge.item }}{% unless forloop.last %},{% endunless %}
+            </span>
+        {% endfor %}
+    </div>
+
+</div>
+{% endif %}

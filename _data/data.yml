@@ -27,6 +27,78 @@ sidebar:
   pdf: https://1drv.ms/b/s!Ar1UwPVLXaYywrId-Rcu_WZd3pRARA?e=1g99oz
   pdf2: https://battlelamb.github.io/online-cv/battlelamb-github-io-online-cv.pdf
 
+  programingskills:
+    title: Programming Skills
+    info:
+      - item: Java
+        description:
+
+      - item: JavaScript
+        description:
+
+      - item: C#
+        description:
+
+      - item: Python
+        description:
+
+      - item: TypeScript
+        description:
+
+      - item: HTML5/CSS3
+        description:
+
+  industryknowledges:
+    title: Industry Knowledge
+    info:
+      - item: React
+        description: In-depth experience with React.js for building reusable components, state management, hooks, and lifecycle methods.
+
+      - item: NextJs
+        description: Proficiency with Next.js for server-side rendering (SSR), static site generation (SSG), and performance optimization in React applications.
+
+      - item: ASP.NET MVC
+        description:
+
+      - item: T-SQL
+        description:
+
+      - item: Redux, Context API
+        description: Expertise in managing global state using Redux and the Context API, including middlewares like Redux-Saga and Redux-Thunk.
+
+      - item: Lazy Loading
+        description: Ability to implement lazy loading of components and assets to improve page performance.
+
+      - item: TypeScript
+        description: Advanced experience using TypeScript to write type-safe React applications, reducing runtime errors and improving maintainability.
+
+      - item: Responsive Design
+        description: Mastery of responsive web design principles for building applications that work across different screen sizes and devices.
+
+      - item: Tailwind CSS/Styled Components
+        description: Experience with modern CSS-in-JS solutions like Tailwind CSS or Styled Components for building modular and scalable styles.
+
+      - item: Performance Optimization
+        description: Techniques to optimize web performance, including minimizing re-renders, using React.memo, and optimizing asset loading.
+
+      - item: CI/CD
+        description: Setting up CI/CD pipelines to automate testing and deployment of React/Next.js applications.
+
+      - item: API Integration
+        description: Experience integrating React applications with RESTful APIs and GraphQL, including managing asynchronous data fetching and error handling.
+
+      - item: UI/UX
+        description: Understanding of UX principles to ensure intuitive and seamless user interactions in web applications.
+
+      - item: Monorepo Management
+        description: Experience managing monorepos using tools like Lerna or Yarn Workspaces to handle multiple packages in a single codebase.
+
+      - item: Arduino
+        description:
+
+      - item: Raspberry Pi
+        description:
+
   languages:
     title: Languages
     info:
@@ -38,18 +110,6 @@ sidebar:
 
       - idiom: German
         level: Intermediate
-
-  interests:
-    title: Interests
-    info:
-      - item: Climbing
-        link:
-
-      - item: Skiing
-        link:
-
-      - item: Cooking
-        link:
 
 career-profile:
   title: Career Profile
@@ -71,13 +131,16 @@ education:
 experiences:
   title: Experiences
   info:
-    - role: Lead Developer
+    - role: Senior Software Engineer
       time: 01/2021 - Present
       company: Monachus Bilişim A.Ş.
       details: |
-        I served as a Team Leader, overseeing a team of three individuals with varying levels of expertise. I played a critical role in a KOSGEB-supported Complex Event Processing (CEP) project written in Java. This project enables companies to define real-time rules and decisions by applying complex and intricate rules during real-time data streams. Additionally, I actively contributed to the development of a real-time data processing and visualization web application. This project aimed to deliver effective data analytics solutions to clients.
-          - Event-centric Massive Scale Real-time Streaming Data Processing
-          - Monachus Bilişim A.Ş. is associated with Altosis Bilişim A.Ş.
+        I served as a Team Leader, overseeing a team of three developers, utilizing Agile methodologies to ensure timely delivery and quality improvement of projects.
+
+          - Led a team of three developers, utilizing Agile methodologies to ensure timely delivery and quality improvement of projects.
+          - Spearheaded a KOSGEB-supported Complex Event Processing (CEP) project using Java, PostgreSQL, and Python, achieving real-time data processing improvements.
+          - Developed a real-time data processing and visualization web application using PostgreSQL, Python, Pandas Profiling, YData Profiling, Dash, Next.js, and Supaset, reducing data analysis time by 30%.
+
     - role: Senior Software Engineer
       time: 01/2021 - Present
       company: Altosis Bilişim A.Ş.
@@ -209,36 +272,29 @@ projects:
         - <a href="https://www.anthukuk.com/" target="_blank" rel="nofollow">https://www.anthukuk.com/</a> <br />
         '
 
-skills:
-  title: Skills &amp; Proficiency
+# skills:
+#   title: Skills &amp; Proficiency
 
-  toolset:
-    - name: Python & Django
-      level: 90%
+#   toolset:
+#     - name: Javascript & jQuery
 
-    - name: Javascript & jQuery
-      level: 100%
+#     - name: React - NextJS
 
-    - name: React - NextJS
-      level: 100%
+#     - name: Python & Django
 
-    - name: HTML5 & CSS
-      level: 95%
+#     - name: Java
 
-    - name: T-SQL
-      level: 80%
+#     - name: HTML5 & CSS
 
-    - name: C#
-      level: 85%
+#     - name: T-SQL
 
-    - name: Unity
-      level: 75%
+#     - name: C#
 
-    - name: Adobe Photoshop
-      level: 85%
+#     - name: Unity
 
-    - name: Adobe Illustrator
-      level: 50%
+#     - name: Adobe Photoshop
+
+#     - name: Adobe Illustrator
 
 footer: >
   <i class="fas fa-heart"></i> Thank you for taking the time to review my CV. I look forward to the opportunity to discuss how my skills and experiences can contribute to your team.
