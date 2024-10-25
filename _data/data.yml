@@ -24,8 +24,11 @@ sidebar:
   github: Battlelamb
   twitter: '@omereren'
   stack-overflow: 5094428/battlelamb # Number/Username, e.g. 123456/alandoe
-  pdf: https://1drv.ms/b/s!Ar1UwPVLXaYyws4X5h1YtGFBd3GyEw?e=AhpBAr
-  pdf2: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren.pdf
+  pdf: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren.pdf
+  pdfsimple: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren Simple.pdf
+  pdfexperienced: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren Experienced.pdf
+  pdfelegant: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren Experienced Elegant.pdf
+  pdfweb: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren Web.pdf
 
   programingskills:
     title: Programming Skills

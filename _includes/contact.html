@@ -113,19 +113,37 @@
     </li>
     {% endif %}
 
-    <!-- {% if sidebar.pdf %}
+    {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
       <a href="{{ sidebar.pdf }}" target="_blank">Resume
         PDF</a>
     </li>
     {% endif %}
 
-    {% if sidebar.pdf2 %}
+    {% if sidebar.pdfsimple %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ sidebar.pdf2 }}" target="_blank">Local
-        Link for Resume PDF</a>
+      <a href="{{ sidebar.pdfsimple }}"
+        target="_blank">Simple Resume PDF</a>
     </li>
-    {% endif %} -->
+    {% endif %}
+    {% if sidebar.pdfexperienced %}
+    <li class="pdf"><i class="fas fa-file-pdf"></i>
+      <a href="{{ sidebar.pdfexperienced }}"
+        target="_blank">Experienced Resume PDF</a>
+    </li>
+    {% endif %}
+    {% if sidebar.pdfelegant %}
+    <li class="pdf"><i class="fas fa-file-pdf"></i>
+      <a href="{{ sidebar.pdfelegant }}"
+        target="_blank">Elegant Resume PDF</a>
+    </li>
+    {% endif %}
+    {% if sidebar.pdfweb %}
+    <li class="pdf"><i class="fas fa-file-pdf"></i>
+      <a href="{{ sidebar.pdfweb }}" target="_blank">Webpage
+        Resume PDF</a>
+    </li>
+    {% endif %}
 
   </ul>
 </div><!--//contact-container-->
