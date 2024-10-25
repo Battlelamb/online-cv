@@ -27,7 +27,6 @@ sidebar:
   pdf: https://1drv.ms/b/s!Ar1UwPVLXaYyws4X5h1YtGFBd3GyEw?e=AhpBAr
   pdf2: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren.pdf
 
-
   programingskills:
     title: Programming Skills
     info:
@@ -146,8 +145,8 @@ experiences:
       time: 01/2021 - Present
       company: Altosis Bilişim A.Ş.
       details: |
-        I have developed the following web application: <a href="https://ranan.mobily.com.sa/en" target="_blank" rel="nofollow">https://ranan.mobily.com.sa</a>. Additionally, I have contributed to the development of the mobile app of the same application <a href="https://play.google.com/store/apps/details?id=com.mobily.rananapp&hl=en&gl=US" target="_blank" rel="nofollow">Mobily Ranan</a>
-          - <a href="https://ranan.mobily.com.sa/en" target="_blank" rel="nofollow">https://ranan.mobily.com.sa</a>
+        I have developed the following web application: <a href="https://ranan.mobily.com.sa/en" target="_blank" rel="nofollow">ranan.mobily.com.sa</a>. Additionally, I have contributed to the development of the mobile app of the same application <a href="https://play.google.com/store/apps/details?id=com.mobily.rananapp&hl=en&gl=US" target="_blank" rel="nofollow">Mobily Ranan</a>
+          - <a href="https://ranan.mobily.com.sa/en" target="_blank" rel="nofollow">ranan.mobily.com.sa</a>
           - <a href="https://play.google.com/store/apps/details?id=com.mobily.rananapp&hl=en&gl=US" target="_blank" rel="nofollow">Mobily Ranan</a>
     - role: Senior Software Engineer
       time: 09/2020 - 01/2021
@@ -166,14 +165,21 @@ experiences:
       time: 04/2017 - 03/2019
       company: Self-Employed
       details: |
-        I have provided technical support to various firms such as P&G (Procter and Gamble), O-Pak, Metro Group, and others, across different platforms and domains, and have also developed applications. For further details, please refer to the projects section.
+        <a href="https://www.pg.com.tr/" target="_blank" rel="nofollow">P&G (Procter and Gamble)</a>:
+        - Packaging Qualification: A packaging system designed for planning at the P&G Germany factory.
+        - QAlert: An information system tailored for the production lines at the P&G Gebze factory.
+        - Action Plan: A comprehensive information and monitoring system deployed across the entirety of the P&G Gebze factory.
+        - Maintenance of various applications.
+
+        <a href="http://shop.o-pak.com.tr:3434/" target="_blank" rel="nofollow">O-PAK Sealing Products Distributorship Order system</a> - The application allows for the addition of new customers, each of whom may have a pre-defined discount. The products displayed on the page are configured and selected by the company. The application is built on a .NET Angular MVC framework on a MSSQL database.
+
+        Various WordPress Web Applications
+
     - role: Senior Software Engineer
       time: 03/2016- 03/2017
       company: Metro Group - Metro Elektri̇k Mühendi̇sli̇k Taah. San. ve Ti̇c. Ltd. Şti̇.
       details: |
-        I have provided technical support to various firms such as P&G (Procter and Gamble), O-Pak, Metro Group, and others, across different platforms and domains, and have also developed applications. For further details, please refer to the projects section.
-         - Digital Marketing
-         - Social network management
+        Provided technical support and developed various in-house application.
          - Technical support
          - Overseeing the integration of new payment system NeTahsilat
          - Preparing the reports about online interactions
@@ -193,12 +199,12 @@ experiences:
           - Web site and launcher management
           - Creating banner ads for new promotions
           - Planning new campaigns and in-game items
-    - role: UI/UX Engineer
+    - role: Front End Developer
       time: 09/2011 - 10/2012
       company: Sirius Pırlanta A.Ş.
       details: |
         Web Development:
-          - <a href="https://www.siriuspirlanta.com/" target="_blank" rel="nofollow">https://www.siriuspirlanta.com/</a>
+          - <a href="https://www.siriuspirlanta.com/" target="_blank" rel="nofollow">www.siriuspirlanta.com/</a>
           - Bug-tracking and code-cleaning methodologies implemented
           - Development of a new and highly intuitive user interface (UI)
           - Comprehensive SEO optimization strategies deployed
@@ -240,20 +246,6 @@ projects:
   intro: >
     Side projects
   assignments:
-    - title: P&G (Procter and Gamble)
-      link: '#'
-      tagline: '
-        <br />
-        - Packaging Qualification: A packaging system designed for planning at the P&G Germany factory.<br />
-        - QAlert: An information system tailored for the production lines at the P&G Gebze factory.<br />
-        - Action Plan: A comprehensive information and monitoring system deployed across the entirety of the P&G Gebze factory.<br />
-        - Maintenance of various applications.
-        '
-
-    - title: O-PAK Sealing Products Distributorship Order system
-      link: 'http://shop.o-pak.com.tr:3434/'
-      tagline: 'The application allows for the addition of new customers, each of whom may have a pre-defined discount. The products displayed on the page are configured and selected by the company. The application is built on a .NET Angular MVC framework on a MSSQL database.'
-
     - title: Tetraport Teknoloji̇ A.Ş.
       link: '#'
       tagline: 'Tetro Boss XCRM Localization, integrated a new localization feature into the ASP.NET MVC application.'
