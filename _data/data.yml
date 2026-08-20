@@ -1,227 +1,168 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Bu dosya otomatik uretilir: basvurularda kullanilan CV ile ayni metin.
+# Kaynak: build_cv_ats.py  |  Uretici: cv_sayfa_uret.py
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: True
+  education: True
 
   # Profile information
   name: Ömer Eren
-  tagline: Full Stack Developer
-  experience: '+15'
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Full Stack Software Engineer
+  experience: '20'
 
   # Sidebar links
   email: erenomer@gmail.com
   phone: +90 530 766 60 32
-  birthday: 18/02/1982
-  timezone: Turkey/İstanbul Timezone
-  citizenship: Turkey
-  website: monachus.io #do not add http://
+  timezone: İstanbul, Türkiye (UTC+3)
+  citizenship: Türkiye
   linkedin: ömer-eren
   github: Battlelamb
-  stack-overflow: 5094428/battlelamb # Number/Username, e.g. 123456/alandoe
-  pdf: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren.pdf
-  pdfsimple: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren Simple.pdf
-  pdfexperienced: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren Experienced.pdf
-  pdfelegant: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren Experienced Elegant.pdf
-  pdfweb: https://battlelamb.github.io/online-cv/%C3%96mer%20Eren Web.pdf
+  stack-overflow: 5094428/battlelamb
+  pdf: https://battlelamb.github.io/online-cv/Omer_Eren_CV.pdf
 
   programingskills:
-    title: Programming Skills
+    title: Programming Languages
     info:
-      - item: Java
-        description:
-
-      - item: JavaScript
-        description:
-
-      - item: C#
-        description:
-
       - item: Python
         description:
 
       - item: TypeScript
         description:
 
-      - item: HTML5/CSS3
+      - item: JavaScript
         description:
 
-  industryknowledges:
-    title: Industry Knowledge
-    info:
-      - item: React
-        description: In-depth experience with React.js for building reusable components, state management, hooks, and lifecycle methods.
+      - item: Rust
+        description:
 
-      - item: NextJs
-        description: Proficiency with Next.js for server-side rendering (SSR), static site generation (SSG), and performance optimization in React applications.
+      - item: Go
+        description:
 
-      - item: ASP.NET MVC
+      - item: Java
+        description:
+
+      - item: C#
+        description:
+
+      - item: SQL
         description:
 
       - item: T-SQL
         description:
 
-      - item: Redux, Context API
-        description: Expertise in managing global state using Redux and the Context API, including middlewares like Redux-Saga and Redux-Thunk.
+  industryknowledges:
+    title: What I work with
+    info:
+      - item: Backend and Architecture
+        description: Spring Boot, Node.js, Flask, FastAPI, .NET, RESTful API, Microservices, Domain-Driven Design, Event-Driven Architecture, Kafka, Object-Oriented Programming, Design Patterns, SOLID
 
-      - item: Lazy Loading
-        description: Ability to implement lazy loading of components and assets to improve page performance.
+      - item: Frontend
+        description: React, Next.js, React Native, Redux, Angular, HTML5, CSS3
 
-      - item: TypeScript
-        description: Advanced experience using TypeScript to write type-safe React applications, reducing runtime errors and improving maintainability.
+      - item: Data and Artificial Intelligence
+        description: PostgreSQL, Microsoft SQL Server, OpenSearch, Redis, Data Warehousing, ETL, Large Language Models, Retrieval-Augmented Generation, Model Context Protocol, AI Agents, Credit Risk Analytics, Credit Scoring
 
-      - item: Responsive Design
-        description: Mastery of responsive web design principles for building applications that work across different screen sizes and devices.
-
-      - item: Tailwind CSS/Styled Components
-        description: Experience with modern CSS-in-JS solutions like Tailwind CSS or Styled Components for building modular and scalable styles.
-
-      - item: Performance Optimization
-        description: Techniques to optimize web performance, including minimizing re-renders, using React.memo, and optimizing asset loading.
-
-      - item: CI/CD
-        description: Setting up CI/CD pipelines to automate testing and deployment of React/Next.js applications.
-
-      - item: API Integration
-        description: Experience integrating React applications with RESTful APIs and GraphQL, including managing asynchronous data fetching and error handling.
-
-      - item: UI/UX
-        description: Understanding of UX principles to ensure intuitive and seamless user interactions in web applications.
-
-      - item: Monorepo Management
-        description: Experience managing monorepos using tools like Lerna or Yarn Workspaces to handle multiple packages in a single codebase.
-
-      - item: Arduino
-        description:
-
-      - item: Raspberry Pi
-        description:
+      - item: Practices and Tooling
+        description: Docker, CI/CD, Git, Agile, Scrum, Software Architecture, Team Leadership
 
   languages:
     title: Languages
     info:
       - idiom: Turkish
         level: Native
-
       - idiom: English
-        level: Professional
-
+        level: Professional working proficiency
       - idiom: German
-        level: Intermediate
+        level: Elementary
 
-career-profile:
+careerprofile:
   title: Career Profile
   summary: |
-    Experienced Full Stack Developer with a strong interest in exploring new technologies and creating innovative applications. Skilled in both front-end and back-end development, I excel in fast-paced environments where I can apply my creativity and technical knowledge to deliver high-quality solutions. Committed to pushing technological boundaries and achieving impactful outcomes, I have a keen eye for detail and a passion for driving results.
+    Full-stack software engineer with 20 years of experience, still writing code every day. I work at the intersection of regulated consumer finance and applied artificial intelligence (AI). At Türk Finansman/Kredim, I build credit-scoring and decision-support systems, a locally hosted retrieval-augmented generation (RAG) service, privacy tooling, and reporting automation. I work across Python, SQL, TypeScript, Java, and Rust, tracing business rules from source data through services and interfaces to tested, reviewable outcomes. Earlier in my career, I delivered systems across e-commerce, game operations, payment systems, factory software, mobile platforms, and real-time event processing.
+
 education:
   title: Education
   info:
-    - degree: Forest Engineer
+    - degree: Forest Engineering, BSc
       university: İstanbul University
+      time: 2004 - 2012
+    - degree: High School
+      university: Kartal Anadolu Lisesi
       time: İstanbul
     - degree: Middle School
-      university: Sankt Georg College
-      time: İstanbul
-    - degree: High School
-      university: Kartal Anadolu College
+      university: Sankt Georg Avusturya Lisesi
       time: İstanbul
 
 experiences:
-  title: Experiences
+  title: Experience
   info:
-    - role: Senior Software Engineer
-      time: 01/2021 - Present
-      company: Monachus Bilişim A.Ş.
+    - role: Full-Stack Software Engineer
+      time: October 2025 - Present
+      company: Türk Finansman A.Ş. (Kredim), İstanbul, Türkiye
       details: |
-        I served as a Team Leader, overseeing a team of three developers, utilizing Agile methodologies to ensure timely delivery and quality improvement of projects.
+          - Built SkorAI, a modular credit-scoring and decision-support platform (Flask, YAML rule engine, React/TypeScript interface), deriving its configurable logic from the existing rule set. An incoming application passes through the policy rules, is scored and assigned a risk profile before a decision is returned.
+          - Separated business rules from the codebase: reject, manual-review and flag rules sit in a central configuration store, changes are versioned into an audit log, and a rule update requires no new deployment and can be rolled back in one step. Channel-based configuration serves partners with distinct rule sets.
+          - Developed the engine's management panel in Next.js and React with TypeScript: a visual rule editor, scoring parameter and limit table management, versioned scorecard coefficients, and portfolio analytics covering rating migration, probability of default (PD) curves and stress tests.
+          - Ran the comparative before-and-after risk and limit analysis covering roughly one million customers, and designed the modeling sample for scorecard development.
+          - Reverse-engineered and documented the undocumented core lending database on Microsoft SQL Server, and joined the two systems holding accounting and operational figures through a data mapping; reconciliations and customer-level cross-queries run on that mapping in T-SQL.
+          - Built a locally hosted, vector-based knowledge retrieval platform (retrieval-augmented generation, RAG) that runs without company data leaving the premises, and connected it to the team's large language model (LLM) tools over the Model Context Protocol (MCP).
+          - Built a format-preserving anonymization platform in Rust that masks personal data while keeping referential integrity across systems, and validated its discovery, masking configuration, tests and read-only dry-run safeguards.
+          - Built the in-house anti-money laundering (AML) sanctions screening platform as Rust and Go microservices over PostgreSQL and OpenSearch, and automated the recurring reporting, reconciliation and alerting workflows across credit, liquidity, collections and revenue with explicit validation and operational controls.
 
-          - Led a team of three developers, utilizing Agile methodologies to ensure timely delivery and quality improvement of projects.
-          - Spearheaded a KOSGEB-supported Complex Event Processing (CEP) project using Java, PostgreSQL, and Python, achieving real-time data processing improvements.
-          - Developed a real-time data processing and visualization web application using PostgreSQL, Python, Pandas Profiling, YData Profiling, Dash, Next.js, and Supaset, reducing data analysis time by 30%.
+    - role: Full-Stack Developer, Team Lead
+      time: January 2021 - October 2025
+      company: Monachus.io, İstanbul, Türkiye
+      details: |
+          - Designed and developed a multi-component complex event processing (CEP) engine for rule-based decisions on streaming data; the project received public innovation funding through KOSGEB. Rules are defined in a visual editor and reach the running system without a new deployment; matching events raise alarms. Built on Java and Spring Boot with Kafka and Flink.
+          - Delivered the Mobily Ranan platform in Next.js for a leading Saudi telecom operator and contributed to its React Native mobile application.
+          - Implemented a drag-and-drop widget dashboard in React and ECharts for monitoring streaming data, and a real-time data processing platform on PostgreSQL, Python and Dash.
+          - Led a team of three developers across both projects, introduced Agile practices and mentored across the stack.
 
-    - role: Senior Software Engineer
-      time: 01/2021 - Present
-      company: Altosis Bilişim A.Ş.
+    - role: Part-Time Programming Instructor
+      time: January 2018 - October 2025
+      company: MakerCodes, İstanbul, Türkiye
       details: |
-        I have developed the following web application: <a href="https://ranan.mobily.com.sa/en" target="_blank" rel="nofollow">ranan.mobily.com.sa</a>. Additionally, I have contributed to the development of the mobile app of the same application <a href="https://play.google.com/store/apps/details?id=com.mobily.rananapp&hl=en&gl=US" target="_blank" rel="nofollow">Mobily Ranan</a>
-          - <a href="https://ranan.mobily.com.sa/en" target="_blank" rel="nofollow">ranan.mobily.com.sa</a>
-          - <a href="https://play.google.com/store/apps/details?id=com.mobily.rananapp&hl=en&gl=US" target="_blank" rel="nofollow">Mobily Ranan</a>
-    - role: Senior Software Engineer
-      time: 09/2020 - 01/2021
-      company: Lova Pırlanta Sanayi̇ Ve Ti̇caret Li̇mi̇ted Şi̇rketi̇
-      details: |
-        Actively developed the UI, made improvements to the front end, and added new features to the C# backend.
-          - <a href="https://www.lovapirlanta.com/" target="_blank" rel="nofollow">Lova Pırlanta</a>
-    - role: Part-time Programming Teacher
-      time: 2018 - Present
-      company: Maker Codes
-      details: |
-        Maker Codes offers a range of technical courses instructed by skilled professionals. As a part-time programming teacher, I lead sessions covering HTML, CSS, JavaScript, C#, Python, Java, Arduino, Unity, and APP Inventor. Our Bootcamp-Training program for adults features an extensive curriculum including HTML, CSS, JavaScript, Node.js, MongoDB, and React-Redux.
-          - <a href="https://makercodes.com/egitmenlerimiz/" target="_blank" rel="nofollow">Maker Codes</a>
-          - <a href="https://makercodes.com/makercodes-bootcamp-yazilim-kampimiz-tamamlandi/" target="_blank" rel="nofollow">Makercodes – Bootcamp</a>
-    - role: Freelancer
-      time: 04/2017 - 03/2019
-      company: Self-Employed
-      details: |
-        <a href="https://www.pg.com.tr/" target="_blank" rel="nofollow">P&G (Procter and Gamble)</a>:
-        - Packaging Qualification: A packaging system designed for planning at the P&G Germany factory.
-        - QAlert: An information system tailored for the production lines at the P&G Gebze factory.
-        - Action Plan: A comprehensive information and monitoring system deployed across the entirety of the P&G Gebze factory.
-        - Maintenance of various applications.
+          - Taught programming to adults and young learners and prepared full-stack bootcamp programmes on Node.js, MongoDB, React and Redux; mentored new developers on version control and modern development workflows.
 
-        <a href="http://shop.o-pak.com.tr:3434/" target="_blank" rel="nofollow">O-PAK Sealing Products Distributorship Order system</a> - The application allows for the addition of new customers, each of whom may have a pre-defined discount. The products displayed on the page are configured and selected by the company. The application is built on a .NET Angular MVC framework on a MSSQL database.
+    - role: Full-Stack Developer
+      time: July 2017 - April 2021
+      company: Self-Employed, İstanbul, Türkiye
+      details: |
+          - Delivered three factory systems for Procter & Gamble: a packaging qualification system for the Germany plant, the QAlert production-line monitoring application for the Gebze plant, and a plant-wide action plan platform. Built on .NET MVC with a layered architecture, Entity Framework and dependency injection.
+          - Implemented the O-PAK dealer order management system on .NET MVC, Angular and MSSQL, and ran the delivery on my own from requirements analysis through go-live and support.
 
-        - Various WordPress Web Applications
+    - role: Full-Stack Developer and IT Manager
+      time: March 2016 - March 2017
+      company: Metro Elektrik, İstanbul, Türkiye
+      details: |
+          - Sole information technology responsibility at an authorised sales partner of ABB, Siemens and Phoenix Contact: developed the NeTahsilat payment integration in C#, ASP.NET and MSSQL, prepared reporting interfaces for the sales operation, and supported daily IT operations.
 
-    - role: Senior Software Engineer
-      time: 03/2016- 03/2017
-      company: Metro Group - Metro Elektri̇k Mühendi̇sli̇k Taah. San. ve Ti̇c. Ltd. Şti̇.
+    - role: Project Manager, International Operations
+      time: June 2013 - March 2015
+      company: EPIN, İstanbul, Türkiye
       details: |
-        Provided technical support and developed various in-house application.
-         - Technical support
-         - Overseeing the integration of new payment system NeTahsilat
-         - Preparing the reports about online interactions
-         - VR development for the Showroom
-         - <a href="http://metroyapi.com.tr" target="_blank" rel="nofollow">Metro Yapı</a>
-         - <a href="https://www.metroelektrik.com.tr/" target="_blank" rel="nofollow">Metro Elektrik</a>
-    - role: Project Manager/International Management
-      time: 06/2013 - 03/2015
-      company: Thu Bi̇li̇şi̇m İnternet Ve Danışmanlık Ti̇caret Ltd. Şti.
+          - Managed local operations for international gaming projects including Prime World and Ragnarök Online: localisation, quality assurance, launcher and website development.
+
+    - role: Front-End Developer and Designer
+      time: April 2012 - October 2012
+      company: Sirius Diamond, İstanbul, Türkiye
       details: |
-        Prime World - Ragnarök Online
-          - Overseeing whole local operations
-          - Localization and QA
-          - Social network management
-          - Technical support, All communication with the Nival HQ
-          - Preparing the reports about in-game and sales statuses
-          - Web site and launcher management
-          - Creating banner ads for new promotions
-          - Planning new campaigns and in-game items
-    - role: Front End Developer
-      time: 09/2011 - 10/2012
-      company: Sirius Pırlanta A.Ş.
+          - Enhanced the company's e-commerce front end with MVC Razor, Bootstrap and jQuery, building reusable interface components and reducing page load times.
+
+    - role: Web Developer and Designer
+      time: 2010 - 2011
+      company: Grey İstanbul, İstanbul, Türkiye
       details: |
-        Web Development:
-          - <a href="https://www.siriuspirlanta.com/" target="_blank" rel="nofollow">www.siriuspirlanta.com/</a>
-          - Bug-tracking and code-cleaning methodologies implemented
-          - Development of a new and highly intuitive user interface (UI)
-          - Comprehensive SEO optimization strategies deployed
-    - role: UI/UX Engineer
-      time: 06/2010 - 08/2011
-      company: Grey İstanbul / Dibygrey
+          - Produced web interfaces and campaign assets for brands including IKEA, THY Kargo and Ülker, applying responsive design principles across device resolutions.
+
+    - role: 3D Artist
+      time: 2005 - 2007
+      company: Reaktor, İstanbul, Türkiye
       details: |
-        - IKEA Aile Kart
-        - Ülker GYO
-        - CHP Banner
-        - Localization and recomposing: NIKE
-        - CHP
-        - Amnesty
-        - THY Kargo
-        - Kuveyt Türk
+          - Produced three-dimensional visual content.
 
 certifications:
   title: Certifications
@@ -246,50 +187,24 @@ certifications:
 projects:
   title: Projects
   intro: >
-    Side projects
+    Selected work. Most of it lives in private company
+    repositories; what is public is on GitHub.
   assignments:
-    - title: Tetraport Teknoloji̇ A.Ş.
+    - title: SkorAI, Credit Scoring System
       link: '#'
-      tagline: 'Tetro Boss XCRM Localization, integrated a new localization feature into the ASP.NET MVC application.'
+      tagline: 'Python, Flask, React, TypeScript, Docker  |  Status: separate from the production engine <br /> Modular scoring platform: Flask REST API, rule engine, risk profiling and limit calculation, with a separate React and TypeScript operator interface.'
 
-    - title: Localization/QA
+    - title: AML Sanctions Screening Platform
       link: '#'
-      tagline: 'NEXON – Lost Saga Game'
+      tagline: 'Rust, Go, Next.js, PostgreSQL, OpenSearch  |  Status: in-house <br /> Ingests official sanctions lists, matches customers with recall and rerank scoring, routes hits into case workflows and prepares regulatory reports.'
 
-    - title: Localization/QA
+    - title: OpenHub, Multi-Agent Orchestration
       link: '#'
-      tagline: 'NEXON – United Eleven Game'
+      tagline: 'FastAPI, React, Docker  |  Status: open source <br /> Distributes work to artificial intelligence agents, runs results through verification gates and takes human approval at critical steps; 60+ API endpoints.'
 
-    - title: Wordpress
+    - title: Synapse AI, LLM Application
       link: '#'
-      tagline: ' <br />
-        - <a href="https://www.turaetiket.com/" target="_blank" rel="nofollow">https://www.turaetiket.com/</a> <br />
-        - <a href="https://www.anthukuk.com/" target="_blank" rel="nofollow">https://www.anthukuk.com/</a> <br />
-        '
-
-# skills:
-#   title: Skills &amp; Proficiency
-
-#   toolset:
-#     - name: Javascript & jQuery
-
-#     - name: React - NextJS
-
-#     - name: Python & Django
-
-#     - name: Java
-
-#     - name: HTML5 & CSS
-
-#     - name: T-SQL
-
-#     - name: C#
-
-#     - name: Unity
-
-#     - name: Adobe Photoshop
-
-#     - name: Adobe Illustrator
+      tagline: 'Python, spaCy, PostgreSQL, Docker  |  Status: own project <br /> Customer research application moving from segmentation to hypothesis generation and a strategy card; more than 200 automated tests.'
 
 footer: >
   <i class="fas fa-heart"></i> Thank you for taking the time to review my CV. I look forward to the opportunity to discuss how my skills and experiences can contribute to your team.
